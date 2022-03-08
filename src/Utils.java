@@ -21,6 +21,10 @@ public class Utils {
 
     }
 
+    public Utils(String workerDir){
+        this.workerDir = workerDir;
+    }
+
     public String getSavegames() {
         return savegames.getAbsolutePath();
     }
